@@ -11,7 +11,7 @@
 ***In the .ipynb(python notebook) file:***
 - Used the nmkd/stable-diffusion-1.5-fp16 model from hugging face for image generation.
 - Using diffusers library setup the DiffusionPipeline and used cuda to use my inbuilt RTX 4050 GPU.
-- Gave a prompt and generated three images of the same prompt using a simple for loop and rezied the images to 224x224 resolution saved the all the images separately.
+- Gave a prompt and generated three images of the same prompt using a simple for loop and resized the images to 224x224 resolution saved the all the images separately.
 - Used tranforms from torchvision to convert the images to Tensor between the range of 0 to 1 and saved the tensors in a list.
 - Used np.save() to create a .npy file consisting of the tensors as a np array.
   
